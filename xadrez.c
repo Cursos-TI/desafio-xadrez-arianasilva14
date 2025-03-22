@@ -31,8 +31,47 @@ int main() {
     //Mover a torre 5 casas para a direita
     for (int i = 0; i < 5; i++)
     {
-        printf("Direita\n");
+        printf("Direita Torre\n");
     }
+
+        printf("\n");
+
+    //Mover o bispo 5 casas para a esqueda
+    for (int i = 0; i < 5; i++)
+    {
+        printf("Esquerda Bispo\n");
+    }
+
+        printf("\n");
+
+    //Mover o rainha 3 casas para a esqueda
+    for (int i = 0; i < 3; i++)
+    {
+        printf("Horizontal Rainha\n");
+    }
+
+        printf("\n");
+
+    //Mover o cavalo 4 casas para a esqueda
+    for (int i = 0; i < 4; i++)
+    {
+        printf("Esquerda Cavalo\n");
+    }
+
+        printf("\n");
+
+        int movimentoCompleto = 1;
+
+        while (movimentoCompleto--)
+        {
+            for (int i = 0; i < 2; i++)
+            {
+                printf("Cima\n");
+            }
+
+            printf("Direita\n");
+            
+        }
 
     return 0;
 }
